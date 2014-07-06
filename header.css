@@ -1,22 +1,47 @@
+body{
+	margin-left: -0px;
+	margin-right: 0px;
+	margin-top:   0px;
+}
+
 header{
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
 	 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #f3ae91;
-	height: 70px;
-	width: 100%;
+	height:    70px;
+	width: 	   100%;
 	min-width: 100%;
 }
 
 nav  a{
-	color: white;
+	color: 				white;
+	text-decoration: 	none;
 }
 
 .right-nav{
-	font-size: 30pt;
-	margin:27px 0px 10px -23px;
+	margin-top:  27px;
+	margin-left: 20px;
+	font-size:   21px;
+	display:     inline-block;
 }
 
 .left-part-navbar{
-	float: right;
-	font-size: 12pt;
+	float:       right;
+	font-size:    10px;
+	margin-top:   46px;
+	margin-right: 15px;
+	display:     inline-block;
+}
+
+.left-part-navbar a{
+	margin-right: 7px;
+	margin-left:  26px;
+}
+
+.left-part-navbar :last-child{
+	margin-left: 34px;	
+}
+
+.left-part-navbar :first-child{
+	margin-right: 9px;
 }
