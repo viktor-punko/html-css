@@ -1,0 +1,22 @@
+header{
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
+	 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f3ae91;
+	height: 70px;
+	width: 100%;
+	min-width: 100%;
+}
+
+nav  a{
+	color: white;
+}
+
+.right-nav{
+	font-size: 30pt;
+	margin:27px 0px 10px -23px;
+}
+
+.left-part-navbar{
+	float: right;
+	font-size: 12pt;
+}
