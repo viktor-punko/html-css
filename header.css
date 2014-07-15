@@ -2,11 +2,20 @@ body{
 	margin-left: -0px;
 	margin-right: 0px;
 	margin-top:   0px;
+	font-family: "Myriad Pro";
+}
+
+.main-column{
+	width: 770px;
+	/*http://www.w3schools.com/css/tryit.asp?filename=trycss_align_container*/
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header{
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
-	 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
+	 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: "Myriad Pro";
 	background-color: #f3ae91;
 	height:    70px;
 	width: 	   100%;
@@ -28,9 +37,19 @@ nav  a{
 .left-part-navbar{
 	float:       right;
 	font-size:    10px;
-	margin-top:   46px;
-	margin-right: 15px;
 	display:     inline-block;
+}
+
+.left-part-navbar > div{
+	display: inline-block;
+	border-left: 1px solid #f1b79f;
+	padding-top:    46px;
+	padding-bottom: 12px;
+	/*padding-right:*/ 
+}
+
+.left-part-navbar > div:hover{
+	background-color: #e7936e;
 }
 
 .left-part-navbar a{
@@ -38,10 +57,28 @@ nav  a{
 	margin-left:  26px;
 }
 
-.left-part-navbar :last-child{
-	margin-left: 34px;	
+.left-part-navbar > div:last-child{
+	padding-left: 34px;	
+	padding-right: 15px;	
 }
 
-.left-part-navbar :first-child{
-	margin-right: 9px;
+.left-part-navbar > div:first-child{
+	padding-right: 9px;
+}
+
+
+
+.about{
+	background-color: #17161d;
+	color: #535067;
+}
+
+h1{
+	color: #e89472;
+	font-size:   21px;
+}
+
+h2{
+	color: #e89472;
+	font-size:   15px;
 }
