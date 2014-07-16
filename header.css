@@ -72,21 +72,34 @@ header  a{
 	padding-right: 9px;
 }
 
-
-
 .about{
 	background-color: #17161d;
 	color: #535067;
+	margin-top: -14px;
+	padding-top: 42px;
+	height: 243px;
 }
 
 h1{
 	color: #e89472;
-	font-size:   21px;
+	font-size:   26px;
 }
 
 h2{
 	color: #e89472;
 	font-size:   15px;
+}
+
+b{
+	color: white;
+}
+
+button.more {
+	color: #eb9f7f;
+	font-size: 12px;
+	border: 1px solid #eb9f7f;	
+	background-color: #1e1d26; 
+	height: 35px;
 }
 
 .portfolio{
