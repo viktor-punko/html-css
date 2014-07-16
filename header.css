@@ -22,7 +22,7 @@ header{
 	min-width: 100%;
 }
 
-nav  a{
+header  a{
 	color: 				white;
 	text-decoration: 	none;
 }
@@ -34,18 +34,24 @@ nav  a{
 	display:     inline-block;
 }
 
+.right-nav > div{
+	height: 100%;
+}
+
 .left-part-navbar{
+	margin-top: -52px;
 	float:       right;
 	font-size:    10px;
 	display:     inline-block;
+	height: 100%;
 }
 
 .left-part-navbar > div{
 	display: inline-block;
 	border-left: 1px solid #f1b79f;
-	padding-top:    46px;
-	padding-bottom: 12px;
-	/*padding-right:*/ 
+	padding-top: 46px;
+	padding-bottom: 0px;
+	height: 70px;
 }
 
 .left-part-navbar > div:hover{
