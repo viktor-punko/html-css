@@ -81,7 +81,7 @@ header  a{
 }
 
 .about > p{
-	padding-left:145px;
+	padding-left: 145px;
 	padding-right: 145px; 
 	font-size: 20px;
 }
@@ -107,10 +107,32 @@ button.more {
 	background-color: #1e1d26; 
 	height: 35px;
 	margin-top: 30px;
+	display: block;
 }
 
 .info{
-	background-color: #24232d
+	background-color: #24232d;
+	color: #5c5b64;
+}
+
+.info > div:first-child{
+
+	float: left; display: inline-block;
+	width: 50%;
+	color: #5c5b64;
+	background-color: #24232d;
+}
+
+.info > div:last-child{
+	padding-left: 10px;
+	float: right; display: inline-block;
+	width: 50%;
+	color: #5c5b64;
+	background-color: #24232d;
+}
+
+.three-links{
+
 }
 
 .portfolio{
@@ -126,5 +148,5 @@ button.more {
 }
 
 .copyright{
-	
+	background-color: #17161d;
 }
