@@ -101,13 +101,20 @@ b{
 }
 
 button.more {
-	color: #eb9f7f;
-	font-size: 12px;
-	border: 1px solid #eb9f7f;	
-	background-color: #1e1d26; 
+	width: 70px;
 	height: 35px;
+	color: #eb9f7f;
+	font-size: 11px;
+	padding: 5px 4px 5px 4px;
+	border: 2px solid #eb9f7f;	
+	background-color: #1e1d26; 
 	margin-top: 30px;
 	display: block;
+	border-radius: 3px; 
+}
+
+button#more_about_me{
+	width: 110px;
 }
 
 .info{
@@ -136,16 +143,86 @@ button.more {
 	background-color: #24232d;
 }
 
-.three-links{
-
+.three-links a{
+	font-size: 10px;
+	text-decoration: none;
+	color: white;
 }
 
 .portfolio{
-
+	/*By unexpected cause between div.info and 
+	div.portfolio exist distance in 16px, this
+	considered here*/
+	margin-top: -16px;
+	background-color: #24232d;
+	border-top: 1px solid #2d2c35;
+	padding-top: 14px;
 }
 
 .portfolio-text{
-	
+	margin-top: 21px;
+	color: #535067;
+}
+
+.portfolio-three-buttons{
+	margin-top: 20px;
+}
+
+.portfolio-three-buttons button{
+	width: 80px;
+	height: 25px;
+	border-radius: 3px;
+	border: 0px solid white;
+	background-color: #4b4a54;
+	color: white;
+
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.portfolio-three-buttons button:first-child{
+	background-color: #eb9f7f;
+	color: #1b1b1b;
+}
+
+.photos-faces{
+	margin-top: 40px;
+}
+
+.circle-img{
+	border-radius: 50%;
+	border: 3px solid #36353f;
+	padding: 5px 0px 0px 5px;
+	width: 151px;
+	height: 151px;
+}
+
+#face_1{
+	background: url(images/face_1.png) no-repeat #24232d;
+}
+
+#face_2{
+	background: url(images/face_2.png) no-repeat #24232d;
+}
+
+#face_3{
+	background: url(images/face_3.png) no-repeat #24232d;
+}
+
+#face_4{
+	background: url(images/face_4.png) no-repeat #24232d;
+}
+
+#face_5{
+	background: url(images/face_5.png) no-repeat #24232d;
+}
+
+#face_6{
+	background: url(images/face_6.png) no-repeat #24232d;
+}
+
+#face_7{
+	background: url(images/face_7.png) no-repeat #24232d;
 }
 
 .contact-me{
