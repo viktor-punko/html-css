@@ -195,6 +195,10 @@ button#more_about_me{
 	
 	width: 135px;
 	height: 135px;
+	border: 3px solid #36353f;
+	padding: 3px 3px 3px 3px;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
 #face_1{
