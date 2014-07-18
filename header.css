@@ -100,7 +100,7 @@ b{
 	color: white;
 }
 
-button.more {
+.more {
 	width: 70px;
 	height: 35px;
 	color: #eb9f7f;
@@ -157,6 +157,7 @@ button#more_about_me{
 	background-color: #24232d;
 	border-top: 1px solid #2d2c35;
 	padding-top: 14px;
+	height: 565px;
 }
 
 .portfolio-text{
@@ -191,10 +192,9 @@ button#more_about_me{
 
 .circle-img{
 	border-radius: 50%;
-	border: 3px solid #36353f;
-	padding: 5px 0px 0px 5px;
-	width: 151px;
-	height: 151px;
+	
+	width: 135px;
+	height: 135px;
 }
 
 #face_1{
@@ -227,6 +227,53 @@ button#more_about_me{
 
 .contact-me{
 	background-color: #24232d;
+	text-align: center;
+	margin-top: -18px;
+	padding-top: 37px;
+	border-top: 1px solid #2d2c35;
+	color: #535067;
+	height: 425px;
+}
+
+.contact-me input, textarea{
+	border-radius: 2px;
+	border: 1px solid #37373e;
+	background-color: #24232d;
+	color: #37373e;
+	padding-left: 10px;
+}
+
+.contact-me input[type="text"]{
+	width: 268px;
+	height: 35px;
+}
+
+.contact-me input:first-child{
+	margin-right: 30px;
+}
+
+
+.contact-me > div{
+	width: 572px;
+	margin-top: 40px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.contact-me textarea {
+	margin-top: 20px;
+	resize: none;
+	height: 134px;
+	width: 100%;
+}
+
+.contact-me input[type="submit"]{
+	width: 70px;
+	height: 35px;
+	border: 0px solid white;
+	color: #1b1b1b;
+	background-color: #eb9f7f;
+	margin-top: 20px;
 }
 
 .copyright{
