@@ -51,7 +51,7 @@ header  a{
 	border-left: 1px solid #f1b79f;
 	padding-top: 46px;
 	padding-bottom: 0px;
-	height: 70px;
+	height: 24px;
 }
 
 .left-part-navbar > div:hover{
@@ -71,6 +71,42 @@ header  a{
 .left-part-navbar > div:first-child{
 	padding-right: 9px;
 }
+
+
+.banner{
+	background: url(images/banner.png) no-repeat #24232d;
+	height: 414px;
+}
+
+.social{
+	position: absolute;
+	margin-left: 330px;
+	margin-bottom: 20px;
+	margin-top: 360px;
+}
+
+.social > div{
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	float: left;
+	border: 2px solid #eb9f7f;
+	margin-right: 9px;
+}
+
+#facebook{
+	background: url(images/facebook.gif) no-repeat #24232d;
+}
+
+#twitter{
+	background: url(images/twitter.gif) no-repeat #24232d;
+}
+
+#linkedin{
+	background: url(images/linkedin.gif) no-repeat #24232d;
+}
+
 
 .about{
 	background-color: #17161d;
