@@ -1,0 +1,90 @@
+header{
+	/*font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
+	 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: "Myriad Pro";
+	background-color: #f3ae91;
+	height:    70px;
+	width: 	   100%;
+	min-width: 100%;
+}
+
+header  a{
+	color: 				white;
+	text-decoration: 	none;
+}
+
+.right-nav{
+	margin-top:  27px;
+	margin-left: 20px;
+	font-size:   21px;
+	display:     inline-block;
+}
+
+.right-nav > div{
+	height: 100%;
+}
+
+.left-part-navbar{
+	margin-top: -52px;
+	float:       right;
+	font-size:    10px;
+	display:     inline-block;
+	height: 100%;
+}
+
+.left-part-navbar > div{
+	display: inline-block;
+	border-left: 1px solid #f1b79f;
+	padding-top: 46px;
+	padding-bottom: 0px;
+	height: 24px;
+}
+
+.left-part-navbar > div:hover{
+	background-color: #e7936e;
+}
+
+.left-part-navbar a{
+	margin-right: 7px;
+	margin-left:  26px;
+}
+
+.left-part-navbar > div:last-child{
+	padding-left: 34px;	
+	padding-right: 15px;	
+}
+
+.left-part-navbar > div:first-child{
+	padding-right: 9px;
+}
+
+h1{
+	color: #e89472;
+	font-size:   26px;
+}
+
+h2{
+	color: #e89472;
+	font-size:   15px;
+}
+
+b{
+	color: white;
+}
+
+.more {
+	width: 70px;
+	height: 35px;
+	color: #eb9f7f;
+	font-size: 11px;
+	padding: 5px 4px 5px 4px;
+	border: 2px solid #eb9f7f;	
+	background-color: #1e1d26; 
+	margin-top: 30px;
+	display: block;
+	border-radius: 3px; 
+}
+
+button#more_about_me{
+	width: 110px;
+}

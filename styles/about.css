@@ -1,0 +1,13 @@
+.about{
+	background-color: #17161d;
+	color: #535067;
+	margin-top: -14px;
+	padding-top: 42px;
+	height: 243px;
+}
+
+.about > p{
+	padding-left: 145px;
+	padding-right: 145px; 
+	font-size: 20px;
+}
