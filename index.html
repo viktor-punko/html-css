@@ -9,7 +9,7 @@
 <body>
 	<div class="main-column">
 		<header>
-			<nav>
+			<!-- <nav> -->
 				<div class="right-nav">
 					<a href="">YOUR NAME</a>
 				</div>
@@ -23,38 +23,53 @@
 					<div><a href="">PORTFOLIO</a></div>
 					<div><a href="">CONTACT</a></div>
 				</div>
-			</nav>
+			<!-- </nav> -->
 		</header>
 
 		<div class="banner">
-			<img src="">
+			<img src="images/banner.png">
 		</div>
 
 		<div class="about" align="center">
 			<h1>HELLO IAM KATE DOE</h1>
 			<p>
-				DONEC NEC JUSTO EGET FELIS FACILISIS FERMENTUM PELLE NTESQUE FELIS LOREM IPSUM DOLOR
+				DONEC NEC JUSTO 
+				<b>EGET FELIS</b>
+				FACILISIS FERMENTUM PELLE NTESQUE FELIS LOREM IPSUM DOLOR
 			</p>
-			<button>MORE ABOUT ME</button>
+			<button class="more" id="more_about_me">MORE ABOUT ME</button>
 		</div>
-
-		<div style="background-color: #24232d">
-			<div style="float: left; display: inline-block;">
+		<div class="info">
+			<div class="left-info">
 				<h2>NUNC DIGNISSIM RISUS</h2>
+				<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+				</p>
+				<button class="more">MORE INFO</button>
 			</div>
 
-			<div style="float: right; display: inline-block;">
+			<div class="right-info">
 				<h2>VIVAMUS VESTIBULUM NULLA</h2>
+				<p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+				</p>
+				<div class="three-links">
+					<a href="">INTEGER VITA    /</a>
+					<a href="">    EGESTIS   /</a>
+					<a href="">    TINDIDUNT</a>
+				</div>
+				<div>
+					<button class="more">MORE INFO</button>
+				</div>
+				
 			</div>
 		</div>
 
-		<div class="portfolio">
+		<div class="portfolio" align="center">
 			<h1>PORTFILIO</h1>
 			<div class="portfolio-text">
-				INTEGER VITAE LIBERO
+				INTEGER VITAE LIBERO AC RISUS EGESTAS PLACERAT
 			</div>
 
-			<div class="three-buttons">
+			<div class="portfolio-three-buttons">
 				<button>TOMDICMT</button>
 				<button>VOLUPTIN</button>
 				<button>FERMENTU</button>
@@ -64,28 +79,35 @@
 				<table>
 					<tr>
 						<td>
-							<img src="girl-face-1.png" alt="beauty girl 1">
+							<div class="circle-img" id="face_1">
+							</div>
 						</td>
 						<td>
-							<img src="girl-face-2.png" alt="beauty girl 1">
+							<div class="circle-img" id="face_2">
+							</div>
 						</td>
 						<td>
-							<img src="girl-face-2.png" alt="beauty girl 1">
+							<div class="circle-img" id="face_3">
+							</div>
 						</td>
 						<td>
-							<img src="girl-face-4.png" alt="beauty girl 1">
+							<div class="circle-img" id="face_4">
+							</div>
 						</td>
 					</tr>
 
 					<tr>
 						<td>
-							<img src="girl-face-5.png" alt="beauty girl 1">
+							<div class="circle-img" id="face_5">
+							</div>
 						</td>
 						<td>
-							<img src="girl-face-6.png" alt="beauty girl 1">
+							<div class="circle-img" id="face_6">
+							</div>
 						</td>
 						<td>
-							<img src="girl-face-7.png" alt="beauty girl 1">
+							<div class="circle-img" id="face_7">
+							</div>
 						</td>
 					</tr>
 				</table>
@@ -95,9 +117,12 @@
 
 		<div class="contact-me">
 			<h1>CONTACT ME</h1>
+			<p>LOREM GER VITAE LIBERO AC RISUS</p>
 			<form>
-				<inpu type="text" value = "Name here..."></input>
-				<inpu type="text"></input>	
+				<input type="text" value="Name here..." size="40	"></input>
+				<input type="text" value="Email here..."></input>
+				<input type="textarea" value="Message here...">
+				<input type="submit" value="SUBMIT">	
 			</form>
 		</div>
 
